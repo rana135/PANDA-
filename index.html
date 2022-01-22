@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Practise panda-2</title>
+</head>
+
+<body>
+    <!-- nav part start -->
+    <header>
+        <nav>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                    <form class="d-flex">
+                        <input class="form-control ms-5" style="width:300px;" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-success ms-2" type="submit">Search</button>
+                    </form>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active  text-primary" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-primary" href="#products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-primary" href="#About us">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-primary" href="#contact us">contact us</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <!-- slider part start -->
+        <section class="container" id="home">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div
+                            class="row d-flex align-items-center justify-content-between bg-primary rounded-3 p-3 mt-5 mb-5">
+                            <div class="col-lg-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse id culpa
+                                    cupiditate quam ratione?</p>
+                                <h2 class=" text-danger">$1289</h2>
+                                <button class="btn btn-danger btn-lg ms-2" type="submit">Search</button>
+                            </div>
+
+                            <div class="col-lg-5 col-md-5 col-sm-12 ">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="row d-flex align-items-center justify-content-between bg-primary rounded-3 p-5 mt-5 mb-5">
+                            <div class="col-lg-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse id culpa
+                                    cupiditate quam ratione?</p>
+                                <h2 class=" text-danger">$1289</h2>
+                                <button class="btn btn-danger btn-lg ms-2" type="submit">Search</button>
+                            </div>
+
+                            <div class="col-lg-5 col-md-5 col-sm-12 ">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div
+                            class="row d-flex align-items-center justify-content-between bg-primary rounded-3 p-5 mt-5 mb-5">
+                            <div class="col-lg-7 col-md-7 col-sm-12">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse id culpa
+                                    cupiditate quam ratione?</p>
+                                <h2 class=" text-danger">$1289</h2>
+                                <button class="btn btn-danger btn-lg ms-2" type="submit">Search</button>
+                            </div>
+
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- categories part start -->
+        <section class="container" id="products">
+            <h1>Categories</h1>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between bg-success p-2">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" class="d-block w-50" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between bg-danger p-2">
+                        <h1>Watch</h1>
+                        <img src="images/categories/bag.png" class="d-block w-50" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between bg-info p-2">
+                        <h1>Watch</h1>
+                        <img src="images/categories/shoes.png" class="d-block w-50" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- shoes part start -->
+        <section class="container">
+            <h1>Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/shoes/shoe-1.png" class="bg-warning rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoe</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/shoes/shoe-2.png" class="bg-warning rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/shoes/shoe-3.png" class="bg-warning rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Backpack part start -->
+        <section class="container" id="About us">
+            <h1>Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/bags/bag-1.png" class="bg-info rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/bags/bag-2.png" class="bg-info  rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 p-3 shadow rounded-3 h-100">
+                        <img src="images/bags/bag-3.png" class="bg-info  rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint Reebok Pum</p>
+                            <h5>$1289</h5>
+                            <button class="btn btn-danger" type="submit">BUY NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                              <!-- login part start -->
+        <section class="container mt-5" id="contact us">
+            <div class="bg-primary d-flex align-items-center justify-content-center">
+                <div class="p-5 text-center">
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <small>Get updates on sales specials and more</small>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" style="width:350px;"
+                        class="form-control rounded-3"><br>
+                    <button class="btn btn-danger rounded-3" type="submit">Login Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- boostrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
